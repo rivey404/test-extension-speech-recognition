@@ -1,7 +1,11 @@
 {
-    "display_name": "Speech Recognition (Test)",
+    "display_name": "Speech Recognition",
     "loading_order": 13,
     "requires": [],
+    "optional": [
+        "vosk-speech-recognition",
+        "whisper-speech-recognition"
+    ],
     "js": "index.js",
     "css": "style.css",
     "author": "Cohee#1207 and Tony-sama",
